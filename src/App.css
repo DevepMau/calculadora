@@ -3,6 +3,20 @@
 body {
   background-color: #222; /* Establece un fondo oscuro para todo el cuerpo de la página */
 }
+
+h1 {
+  color: white;
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Roboto', sans-serif;
+  border: white solid 1px;
+  border-radius: 15px;
+  width: 22rem;
+  padding: 10px; /* Agrega un margen entre el borde y el texto */
+}
+
 .Calculator {
   position: absolute;
   top: 50%;

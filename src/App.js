@@ -82,6 +82,7 @@ function App() {
 
   return (
     <Box className='App'>
+      <h1>CALCULADORA BASICA</h1>
       <div className="Calculator">
         <CssTextField className='TextField' value={textFieldValue} id="custom-css-outlined-input" autoComplete='off' />
         <br />
